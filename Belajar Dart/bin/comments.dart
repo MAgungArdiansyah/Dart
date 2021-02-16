@@ -1,4 +1,4 @@
-import 'package:Belajar_Dart/Belajar_Dart.dart' as belajar_dart;
+import 'package:Basic/Basic.dart' as perhitungan;
 
 // single line comments
 /*
@@ -24,12 +24,6 @@ void main(List<String> arguments){
   // Mencetak Hello Dart! Dart is great
   print('Hello Dart! Dart is great');
   // testing documentation comment with [].
-  print('6 * 7 =${belajar_dart.calculate()}');
-
-  /*
-    output:
-      hello Dart! Dart is great.
-      6 * 7 = 42
-   */
+  print('6 * 7 =${Basic.calculate()}');
 
 }
