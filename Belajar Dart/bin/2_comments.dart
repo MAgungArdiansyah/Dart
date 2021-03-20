@@ -15,12 +15,12 @@ import 'package:Belajar_Dart/Belajar_Dart.dart' as belajar_dart;
   kecuali yang tertutup dalam kurung siku ([]). Di dalam kurung siku kita dapat
   memasukkan referensi dari nama kelas, variabel, atau fungsi. Berikut ini
   adalah contoh penggunaan komentar:
-   */
+*/
 
 /// fungsi [main] akan menampilkan 2 output
 /// Output pertama menampilkan teks dan output kedua menampilkan hasil
 /// perkalian pada library [Basic]
-void main(List<String> arguments){
+void main(List<String> arguments) {
   // Mencetak Hello Dart! Dart is great
   print('Hello Dart! Dart is great');
   // testing documentation comment with [].
@@ -31,5 +31,4 @@ void main(List<String> arguments){
       hello Dart! Dart is great.
       6 * 7 = 42
    */
-
 }

@@ -1,6 +1,6 @@
 import 'dart:io';
 
-void main(){
+void main() {
   int sisi, hasilP;
   int alas, tinggi;
   num panjang, lebar, hasilPP;
@@ -10,7 +10,7 @@ void main(){
   print('Luas Persegi & Segitiga');
   print('Masukan sisi: ');
   sisi = int.parse(stdin.readLineSync());
-  hasilP = sisi*sisi;
+  hasilP = sisi * sisi;
   print('Luas Persegi: $hasilP');
   print('\n\n');
 
@@ -18,7 +18,7 @@ void main(){
   alas = int.parse(stdin.readLineSync());
   stdout.write('Masukan Tinggi: ');
   tinggi = int.parse(stdin.readLineSync());
-  hasilT = (alas*tinggi)*0.5;
+  hasilT = (alas * tinggi) * 0.5;
   print('Luas Segitiga: $hasilT');
   print('\n\n');
 
@@ -26,7 +26,6 @@ void main(){
   panjang = double.parse(stdin.readLineSync());
   stdout.write('Masukan Lebar: ');
   lebar = double.parse(stdin.readLineSync());
-  hasilPP = panjang*lebar;
+  hasilPP = panjang * lebar;
   print('Luas Persegi Panjang: $hasilPP');
-
 }

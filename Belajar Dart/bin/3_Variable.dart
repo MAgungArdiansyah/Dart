@@ -1,5 +1,4 @@
-
-void main(){
+void main() {
   // Variable dapat di deklarasikan langsung isinya atau setelahnya
   String greetings = 'Hello Agung!';
   print(greetings);
