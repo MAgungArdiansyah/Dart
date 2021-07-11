@@ -3,7 +3,7 @@ import 'dart:io';
 void loopfor() {
   stdout.write('Masukan jumlah perulangan: ');
   int i = int.tryParse(stdin.readLineSync());
-  for (int counter; counter < i; counter++) {
+  for (int counter = 0; counter < i; counter++) {
     print('Perulangan ke-$counter');
   }
 }

@@ -1,12 +1,32 @@
+import 'dart:io';
 import 'package:oop/oop.dart' as oop;
 import 'package:oop/animal.dart';
 import 'package:oop/inputoutput.dart';
 import 'package:oop/decision.dart';
 import 'package:oop/looping.dart';
+import 'package:oop/function.dart';
+import 'package:oop/function.dart';
 
 void main(List<String> arguments) {
+  // Function Named Parameter
+  print(chat('agung', 'hello', penerima: 'siwah', aplikasi: 'WA'));
+  // Function Posisional Parameter
+
+  // Function
+  /*num panjang, lebar, luas;
+
+  stdout.write('Masukan nilai panjang:');
+  panjang = num.tryParse(stdin.readLineSync());
+  stdout.write('Masukan nilai lebar:');
+  lebar = num.tryParse(stdin.readLineSync());
+
+  luas = persegipanjang(panjang, lebar);
+
+  print('Hasil = $luas');
+  */
+
   // looping
-  loopfor();
+  //loopfor();
 
   // decision
   //decisionif();
