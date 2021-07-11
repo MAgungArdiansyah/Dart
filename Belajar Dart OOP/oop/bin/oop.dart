@@ -11,6 +11,13 @@ void main(List<String> arguments) {
   // Function Named Parameter
   print(chat('agung', 'hello', penerima: 'siwah', aplikasi: 'WA'));
   // Function Posisional Parameter
+  print(chat2('siwah', 'hai', 'agung', 'WA'));
+
+  // Function Lamda Expression
+  print(segiempat(6));
+
+  // Anonymous Function
+  print(perhitungan(1, 2, (a, b) => a * b));
 
   // Function
   /*num panjang, lebar, luas;
