@@ -2,11 +2,15 @@ import 'package:oop/oop.dart' as oop;
 import 'package:oop/animal.dart';
 import 'package:oop/inputoutput.dart';
 import 'package:oop/decision.dart';
+import 'package:oop/looping.dart';
 
 void main(List<String> arguments) {
+  // looping
+  loopfor();
+
   // decision
-  decisionif();
-  decisioncase();
+  //decisionif();
+  //decisioncase();
 
   // Operator case cade untuk mempersingkat inisialisasi
   /*var anjing = Animal()
