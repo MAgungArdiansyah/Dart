@@ -4,7 +4,9 @@ import 'package:oop/inputoutput.dart';
 import 'package:oop/decision.dart';
 
 void main(List<String> arguments) {
-  salam();
+  // decision
+  decisionif();
+  decisioncase();
 
   // Operator case cade untuk mempersingkat inisialisasi
   /*var anjing = Animal()
