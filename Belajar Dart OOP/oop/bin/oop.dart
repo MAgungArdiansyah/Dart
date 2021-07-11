@@ -1,15 +1,20 @@
 import 'package:oop/oop.dart' as oop;
-import 'package:oop/Animal.dart';
+import 'package:oop/animal.dart';
+import 'package:oop/inputoutput.dart';
+import 'package:oop/decision.dart';
 
 void main(List<String> arguments) {
-  var anjing = Animal()
+  salam();
+
+  // Operator case cade untuk mempersingkat inisialisasi
+  /*var anjing = Animal()
     ..name = 'grey'
     ..age = 24
     ..weight = 3
     ..eat()
     ..sleep()
     ..pop();
-  print(anjing.weight);
+  print(anjing.weight);*/
 
   /*anjing.name = 'siwah';
   anjing.age = 2;
